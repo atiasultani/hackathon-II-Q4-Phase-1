@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat /mnt/c/Users/ho/documents/github/hackathon-II-Q4/frontend/src/components/TaskForm/TaskForm.css)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

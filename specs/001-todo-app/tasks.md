@@ -63,20 +63,20 @@ description: "Task list for Todo Application implementation"
 
 > **NOTE: Write these tests FIRST, ensure they FAIL before implementation**
 
-- [ ] T014 [P] [US1] Contract test for /tasks endpoints in backend/tests/contract/test_tasks.js
-- [ ] T015 [P] [US1] Integration test for task CRUD operations in backend/tests/integration/test_task_crud.js
+- [x] T014 [P] [US1] Contract test for /tasks endpoints in backend/tests/contract/test_tasks.js
+- [x] T015 [P] [US1] Integration test for task CRUD operations in backend/tests/integration/test_task_crud.js
 
 ### Implementation for User Story 1
 
-- [ ] T016 [P] [US1] Implement TaskService in backend/src/services/taskService.js
-- [ ] T017 [US1] Implement TaskController in backend/src/controllers/taskController.js
-- [ ] T018 [US1] Create /tasks routes in backend/src/routes/tasks.js
-- [ ] T019 [US1] Implement TaskList component in frontend/src/components/TaskList/TaskList.js
-- [ ] T020 [US1] Implement TaskForm component in frontend/src/components/TaskForm/TaskForm.js
-- [ ] T021 [US1] Create API service for tasks in frontend/src/services/api.js
-- [ ] T022 [US1] Create Dashboard page in frontend/src/pages/Dashboard.js to display tasks
-- [ ] T023 [US1] Add validation and error handling for task operations
-- [ ] T024 [US1] Add logging for task operations
+- [x] T016 [P] [US1] Implement TaskService in backend/src/services/taskService.js
+- [x] T017 [US1] Implement TaskController in backend/src/controllers/taskController.js
+- [x] T018 [US1] Create /tasks routes in backend/src/routes/tasks.js
+- [x] T019 [US1] Implement TaskList component in frontend/src/components/TaskList/TaskList.js
+- [x] T020 [US1] Implement TaskForm component in frontend/src/components/TaskForm/TaskForm.js
+- [x] T021 [US1] Create API service for tasks in frontend/src/services/api.js
+- [x] T022 [US1] Create Dashboard page in frontend/src/pages/Dashboard.js to display tasks
+- [x] T023 [US1] Add validation and error handling for task operations
+- [x] T024 [US1] Add logging for task operations
 
 **Checkpoint**: At this point, User Story 1 should be fully functional and testable independently
 
