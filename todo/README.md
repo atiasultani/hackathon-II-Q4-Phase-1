@@ -30,7 +30,7 @@ A console-based todo application built with Python, following spec-driven develo
 
 Run the application in interactive mode:
 ```bash
-python src/cli/main.py
+python src/cli/main.py or python -m src.cli.main
 ```
 
 Then use commands like:
