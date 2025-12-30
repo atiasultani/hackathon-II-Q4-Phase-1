@@ -345,6 +345,23 @@ Examples:
     else:
         cli.run(args)
 
+print("Starting Todo CLI Application...")
+print("===================================")
+print("Todo Application - Available Commands:")
+print("add \"title\" [\"description\"]    - Add a new task")
+print("list                          - List all tasks")
+print("update <id> \"title\" [\"description\"] - Update an existing task")
+print("delete <id>                   - Delete a task by ID")
+print("toggle <id>                   - Toggle task completion status")
+print("help                          - Show this help message")
+print("quit/exit                     - Exit the application")
 
+print("Examples:")
+print("  python main.py add \"Buy groceries\" \"Milk, bread, eggs\"")
+print("  python main.py list")
+print("  python main.py update 1 \"Buy groceries\" \"Milk, bread, eggs, fruits\"")
+print("  python main.py delete 1")
+print("  python main.py toggle 1")
+print("===================================") 
 if __name__ == "__main__":
     main()
